@@ -1,0 +1,40 @@
+<h1>Friends for Cats!</h1>
+
+
+<h2>Enter Cat Profile</h2>
+<form class="create-update-form" action="cats/create" method="POST">
+
+  <div class="form-group">
+    <label for="ca">Cat Name:</label>
+    <input type="text" id="ca" name="username">
+  </div>
+  <div class="form-group">
+    <label for="age">Cat Age:</label>
+    <input type="int" id="age" name="age">
+  </div>
+
+  <div class="form-group">
+    
+    <input type="radio" name="likestuna" value="1" checked> Likes Tuna!<br>
+    <input type="radio" name="likestuna" value="0"> No Tuna Please<br>
+    <br>
+    <input type="radio" name="likeschicken" value="1" checked> Likes Chicken!<br>
+    <input type="radio" name="likeschicken" value="0"> No Chicken Please<br>
+    <br>
+    <input type="radio" name="likessalmon" value="1" checked> Likes Salmon!<br>
+    <input type="radio" name="likessalmon" value="0"> No Salmon Please<br>
+    <br>
+    <input type="radio" name="likesfancyfeast" value="1" checked> Likes Fancy Feast!<br>
+    <input type="radio" name="likesfancyfeast" value="0"> No Fancy Feast Please<br>
+    <br>
+    <input type="radio" name="likesbeyond" value="1" checked> Likes Beyond!<br>
+    <input type="radio" name="likesbeyond" value="0"> No Beyond Please<br>
+
+ </div>
+ <div >
+    <label for="pi">Picture</label>
+    <input type="text" id="pi" name="picture">
+  </div>
+
+  <button type="submit">Add Cat</button>
+</form>
